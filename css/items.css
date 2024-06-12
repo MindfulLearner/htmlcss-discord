@@ -46,11 +46,11 @@ header > .headerLoginButton {
     border-radius: 50px;
 }
 
-/* 2.1 IMG e TXT */
+/* 2.2 IMG e TXT */
 
 /* come fa a prendere in percentuale il container padre tipo?SDSADSADSA */
 .layoutBlock > .layoutContainer > .layoutContainerImg > img {
-    max-height: 60px;
+    max-height: 50%;
 }
 
 .layoutBlock > .layoutContainer > .layoutContainerText {
@@ -58,4 +58,20 @@ header > .headerLoginButton {
 }
 .layoutBlock > .layoutContainer > .layoutContainerText > p {
     margin-top: 20px;
+}
+
+/* 2.3 */
+
+
+
+/* 5. */
+
+.layoutBlock.Plus > .layoutContainer.cinque > .layoutContainerTextCinque {
+    width: 60%;
+    text-align: center;
+}
+
+.layoutBlock.Plus > .layoutContainer.cinque > .layoutContainerTextCinque > p {
+    margin-top: 20px;   
+
 }

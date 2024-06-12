@@ -80,6 +80,22 @@ body > .headerContentContainer > .headerSwag > .headerLoginButton {
 /* 2.1 LUOGO A INVITO CO NTUTTO LO SPAZIO PER PARLARE */
 
 
+/* 3. */
+
+.layoutBlock > .layoutContainer.tre {
+    flex-direction: row-reverse;
+}
+
+/* 5 */
+
+
+.layoutBlock.Plus {
+    min-height: 800px;
+}
+
+.layoutBlock.Plus > .layoutContainer.cinque {
+    flex-direction: column-reverse;
+}
 
 
 /* debug */
