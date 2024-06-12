@@ -1,0 +1,47 @@
+/* QUI METTIAMO SOLO GLI ITEMS DA MODIFICARE TIPO COLORI GRANDEZZA TXT etc... */
+
+/* 1. Header Items sistemazione */
+
+/* no pallini l1 */
+header > div nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.headerSwag .headerLinks nav ul > li {
+    display: inline;
+    padding-left: 50px;
+}
+
+header > .headerLoginButton {
+    text-align: end;
+}
+
+/* 1.2 testocontenuto */
+.titoloContainer > .titoloContenuto > .testoContenuto {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* 1.2 Bottni Scarica e apri discord */
+.headerContentContainer > .titoloContainer > .titoloContenuto > .titoloBottoni > .bottoneDownload {
+    min-height: 40px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+    width: 180px;
+    border-radius: 50px;
+
+}
+.headerContentContainer > .titoloContainer > .titoloContenuto > .titoloBottoni > .bottoneApriDs {
+    min-height: 40px;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+    width: 250px;
+    border-radius: 50px;
+}

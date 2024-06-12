@@ -1,0 +1,112 @@
+/* QUI METTEREMO IL LAYOUTS DELLA PAGINA, TENERE CONTO DEL PNG IN IMGEXP */
+
+/* 1. Header con i links, sono due contenitori con background uguale*/ 
+/* Container per header e contenuto */
+body > .headerContentContainer {
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* container per header */
+body > .headerContentContainer > .headerSwag {
+    /* setup larghezza e Altezza */
+    min-height: 65px;
+    margin: 0 auto;
+    width: 80%;
+    /* flex */
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+}
+/* item list 1 */
+body > .headerContentContainer > .headerSwag > .headerLogo {
+    width: calc(100% / 6);
+}
+/* item list 2 */
+body > .headerContentContainer > .headerSwag > .headerLinks {
+    width: calc((100% / 3) * 2);
+}
+/* item list 3 */
+body > .headerContentContainer > .headerSwag > .headerLoginButton {
+    width: calc(100% / 6);
+}
+
+/* 1.2 Contenuto mettere titolo descrizione e due bottoni */
+/* caontainer per contenuto */
+.headerContentContainer > .titoloContainer {
+    min-height: 485px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* formattazione interna del titolo e testi */
+.headerContentContainer > .titoloContainer > .titoloContenuto {
+    /* impostazione altezza e contenuto */
+    width: 50%;
+    margin: 0 auto;
+    min-height: 350px;
+    /* display flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* 1.2 BOTTONI */
+.headerContentContainer > .titoloContainer > .titoloContenuto > .titoloBottoni {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+/* 2. fino 4. BLOCCO */
+.layoutBlock {
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layoutContainer {
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+/* debug */
+
+.debug > .headerContentContainer {
+    border: 1px dashed black;
+    background-color: #fcb2c5;
+}
+
+.debug > .headerContentContainer > .headerSwag {
+    border: 1px dashed black;
+    background-color: #fcb9ca;
+}
+
+.debug > .headerContentContainer > .titoloContainer {
+    border: 1px dashed black;
+    background-color: #fcb2c5;
+}
+
+.debug > .headerContentContainer > .titoloContainer > .titoloContenuto {
+    border: 1px dashed black;
+    background-color: #fcb9ca;
+}
+
+.debug > .layoutBlock {
+    border: 1px dashed black;
+    background-color: #fbc7ff;
+}
+
+.debug > .layoutBlock > .layoutContainer {
+    border: 1px dashed black;
+    background-color: #ffd1dc;
+}
