@@ -8,6 +8,12 @@ body > .headerContentContainer {
     flex-direction: column;
 }
 
+/* da sistemare sicuramente!! */
+body > .headerContentContainer > img{
+    max-width: 100%;
+    position: absolute;
+}
+
 /* container per header */
 body > .headerContentContainer > .headerSwag {
     /* setup larghezza e Altezza */
@@ -98,6 +104,23 @@ body > .headerContentContainer > .headerSwag > .headerLoginButton {
 }
 
 
+/* 5.2 */
+.layoutBlock.Avventura {
+    min-height: 200px ;
+}
+
+.layoutBlock.Avventura > .layoutContainer.Avventura {
+    min-height: 150px;
+    flex-direction: column;
+}
+
+
+/* 6. footer  */
+
+footer > .layoutBlock.Footer {
+        min-height: 400px;
+    }
+
 /* debug */
 
 .debug > .headerContentContainer {
@@ -138,4 +161,9 @@ body > .headerContentContainer > .headerSwag > .headerLoginButton {
 .debug > .layoutBlock > .layoutContainer > .layoutContainerText {
     border: 1px dashed black;
     background-color: #ffd1dc;
+}
+
+.debug > footer > .layoutBlock.Footer {
+    background-color: #ffd1dc;
+    border: 1px dashed black;
 }

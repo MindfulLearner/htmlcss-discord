@@ -14,8 +14,18 @@ header > div nav ul {
     padding-left: 50px;
 }
 
+/* sistemare!!! */
 header > .headerLoginButton {
-    text-align: end;
+    min-height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    /* display flex? */
+    display: flex;
+    width: 100px;
 }
 
 /* 1.2 testocontenuto */
@@ -73,5 +83,24 @@ header > .headerLoginButton {
 
 .layoutBlock.Plus > .layoutContainer.cinque > .layoutContainerTextCinque > p {
     margin-top: 20px;   
+}
 
+/* 5.2 */
+
+
+.layoutBlock > .layoutContainer > .titoloBottoni > .bottoneDownload{
+    min-height: 40px;
+    background-color: rgb(108, 130, 255);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+    width: 180px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+/* fa cagare pero fa niente */
+.layoutBlock.Avventura > .layoutContainer.Avventura > div {
+    background-image: url(../img/stars.svg);
 }

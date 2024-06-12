@@ -3,3 +3,7 @@ Creiamo delle classi riutilizzabili individuando gli elementi ricorrenti nel lay
 Non lavoriamo ancora sul responsive, quindi la nostra pagina non deve adattarsi a tutti i possibili viewport. Se comunque riusciamo almeno a lavorare già un po' con unità relative senza però crearci nuove difficoltà, tanto meglio.
 Partite comunque sempre semplici, non focalizzandovi su parti/soluzioni complesse, semmai le affronterete in un secondo momento.
 Buon lavoro!
+
+
+!!!!!
+Da sistemare IMG del footer e bottone accedi, e hoover puntabile
