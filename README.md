@@ -8,3 +8,5 @@ Buon lavoro!
 !!!!!
 Da sistemare IMG del header e bottone accedi, e hoover puntabile, sistemare footer!!!
 posso farlo con flex ul li, oppure bho mi era venuto in mente mi sono dimenticato
+
+aggiungere onde!!
