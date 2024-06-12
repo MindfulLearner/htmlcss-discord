@@ -11,7 +11,6 @@ body > .headerContentContainer {
 /* da sistemare sicuramente!! */
 body > .headerContentContainer > img{
     max-width: 100%;
-    position: absolute;
 }
 
 /* container per header */
@@ -121,6 +120,13 @@ footer > .layoutBlock.Footer {
         min-height: 400px;
     }
 
+
+footer > .layoutBlock.Footer > .layoutContainer.righeColonne {
+    min-height: 200px;
+}
+
+
+
 /* debug */
 
 .debug > .headerContentContainer {
@@ -164,6 +170,11 @@ footer > .layoutBlock.Footer {
 }
 
 .debug > footer > .layoutBlock.Footer {
-    background-color: #ffd1dc;
+    background-color: #202020;
+    border: 1px dashed black;
+}
+
+.debug > footer > .layoutBlock.Footer > .layoutContainer.righeColonne {
+    background-color: #202020;
     border: 1px dashed black;
 }

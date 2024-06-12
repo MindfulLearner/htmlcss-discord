@@ -6,7 +6,13 @@ Buon lavoro!
 
 
 !!!!!
-Da sistemare IMG del header e bottone accedi, e hoover puntabile, sistemare footer!!!
+Da sistemare IMG del header riga 11 layout.css e bottone accedi, e hoover puntabile, sistemare footer!!!
 posso farlo con flex ul li, oppure bho mi era venuto in mente mi sono dimenticato
 
 aggiungere onde!!
+
+riga 61 item.css Controllare
+
+riga 103 stelle vanno bene ? si puo usare il padding o il position ma non lo so dovrei vedere.
+
+separare bene img in color.css
