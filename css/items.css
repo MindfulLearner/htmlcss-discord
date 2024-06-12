@@ -45,3 +45,17 @@ header > .headerLoginButton {
     width: 250px;
     border-radius: 50px;
 }
+
+/* 2.1 IMG e TXT */
+
+/* come fa a prendere in percentuale il container padre tipo?SDSADSADSA */
+.layoutBlock > .layoutContainer > .layoutContainerImg > img {
+    max-height: 60px;
+}
+
+.layoutBlock > .layoutContainer > .layoutContainerText {
+    width: 20%;
+}
+.layoutBlock > .layoutContainer > .layoutContainerText > p {
+    margin-top: 20px;
+}

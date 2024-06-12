@@ -62,7 +62,7 @@ body > .headerContentContainer > .headerSwag > .headerLoginButton {
     width: 100%;
     justify-content: center;
 }
-/* 2. fino 4. BLOCCO */
+/* 2.-4. BLOCCO */
 .layoutBlock {
     min-height: 600px;
     display: flex;
@@ -70,12 +70,15 @@ body > .headerContentContainer > .headerSwag > .headerLoginButton {
     align-items: center;
 }
 .layoutContainer {
+    width: 100%;
     min-height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
+
+/* 2.1 LUOGO A INVITO CO NTUTTO LO SPAZIO PER PARLARE */
+
 
 
 
@@ -107,6 +110,16 @@ body > .headerContentContainer > .headerSwag > .headerLoginButton {
 }
 
 .debug > .layoutBlock > .layoutContainer {
+    border: 1px dashed black;
+    background-color: #ffd1dc;
+}
+
+.debug > .layoutBlock > .layoutContainer > .layoutContainerImg {
+    border: 1px dashed black;
+    background-color: #ffd1dc;
+}
+
+.debug > .layoutBlock > .layoutContainer > .layoutContainerText {
     border: 1px dashed black;
     background-color: #ffd1dc;
 }
