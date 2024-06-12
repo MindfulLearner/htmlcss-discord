@@ -6,15 +6,19 @@
 header > div nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .headerSwag .headerLinks nav ul > li {
-    display: inline;
-    padding-left: 50px;
+    display: flex;
 }
 
-/* sistemare!!! */
+.headerSwag .headerLinks nav ul li > a {
+    text-decoration: none;
+}
+
+
 header > .headerLoginButton {
     min-height: 40px;
     color: rgb(0, 0, 0);
@@ -25,8 +29,62 @@ header > .headerLoginButton {
     border-radius: 50px;
     /* display flex? */
     display: flex;
-    width: 100px;
+    width: 75px;
+    cursor: pointer;
+    transition: all 1s;
 }
+
+header > .headerLoginButton:hover {
+    color: white;
+    background-color: rgb(114, 114, 255);
+}
+
+
+.waveimgbg {
+    background-image: url(../img/wave.svg);
+    height: 100px;
+}
+.layoutBlock.grey {
+    background-color: rgb(234, 234, 234);
+}
+.layoutBlock.Plus.grey {
+    background-color: rgb(234, 234, 234);
+}
+
+.waveBefore::before {
+    content: "";
+    background-image: url(../img/wave.svg);
+    display: block;
+    height: 100px;
+}
+.waveBefore::after {
+    content: "";
+    background-image: url(../img/wave.svg);
+    display: block;
+    height: 100px;
+    rotate: 180deg;
+}
+
+
+
+footer > .layoutBlock.Footer > .layoutContainer.righeColonne > .Socials > div {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+footer > .layoutBlock.Footer > .layoutContainer.righeColonne > .Socials > div > img{
+    height: 20px;
+    display: inline;
+    text-align: center;
+}
+
+footer > .layoutBlock.Footer > .layoutContainer.righeColonne > .Socials > div > p{
+    display: inline;
+    text-align: center;
+    margin-left: 5px;
+}
+
 
 /* 1.2 testocontenuto */
 .titoloContainer > .titoloContenuto > .testoContenuto {
@@ -57,12 +115,10 @@ header > .headerLoginButton {
 }
 
 /* 2.2 IMG e TXT */
-
 /* come fa a prendere in percentuale il container padre tipo?SDSADSADSA */
 .layoutBlock > .layoutContainer > .layoutContainerImg > img {
     max-height: 50%;
 }
-
 .layoutBlock > .layoutContainer > .layoutContainerText {
     width: 20%;
 }
@@ -75,19 +131,16 @@ header > .headerLoginButton {
 
 
 /* 5. */
-
 .layoutBlock.Plus > .layoutContainer.cinque > .layoutContainerTextCinque {
     width: 60%;
     text-align: center;
 }
 
 .layoutBlock.Plus > .layoutContainer.cinque > .layoutContainerTextCinque > p {
-    margin-top: 20px;   
+    margin-top: 20px;
 }
 
 /* 5.2 */
-
-
 .layoutBlock > .layoutContainer > .titoloBottoni > .bottoneDownload{
     min-height: 40px;
     background-color: rgb(108, 130, 255);
@@ -103,4 +156,29 @@ header > .headerLoginButton {
 /* fa cagare pero fa niente */
 .layoutBlock.Avventura > .layoutContainer.Avventura > div {
     background-image: url(../img/stars.svg);
+}
+
+
+footer > .layoutBlock.Footer >  .layoutContainer.righeColonne > div > ul {
+    list-style: none;
+    display: inline;
+}
+
+footer > .layoutBlock.Footer >  .layoutContainer.righeColonne > div > ul > .titoloLi {
+    color: aquamarine;
+}
+
+footer > .layoutBlock.Footer >  .layoutContainer.righeColonne > div > ul > li {
+   margin-bottom: 20px;
+}
+
+.footerEnd > .headerReg {
+    min-height: 30px;
+    color: white;
+    background-color: rgb(90, 120, 255);
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+    width: 80px;
+    border-radius: 40px;
 }

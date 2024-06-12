@@ -13,3 +13,6 @@
     font-optical-sizing: auto;
 }
 
+footer > * {
+    color: white;
+}

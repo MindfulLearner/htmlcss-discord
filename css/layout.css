@@ -1,12 +1,18 @@
 /* QUI METTEREMO IL LAYOUTS DELLA PAGINA, TENERE CONTO DEL PNG IN IMGEXP */
 
-/* 1. Header con i links, sono due contenitori con background uguale*/ 
+/* 1. Header con i links, sono due contenitori con background uguale*/
 /* Container per header e contenuto */
 body > .headerContentContainer {
     min-height: 550px;
     display: flex;
     flex-direction: column;
+
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: bottom center;
+    /* background-position: bottom; */
 }
+
 
 /* da sistemare sicuramente!! */
 body > .headerContentContainer > img{
@@ -23,26 +29,28 @@ body > .headerContentContainer > .headerSwag {
     display: flex;
     flex: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
+
+
+
 /* item list 1 */
-body > .headerContentContainer > .headerSwag > .headerLogo {
+/* body > .headerContentContainer > .headerSwag > .headerLogo {
     width: calc(100% / 6);
-}
+} */
 /* item list 2 */
-body > .headerContentContainer > .headerSwag > .headerLinks {
+/* body > .headerContentContainer > .headerSwag > .headerLinks {
     width: calc((100% / 3) * 2);
-}
+} */
 /* item list 3 */
-body > .headerContentContainer > .headerSwag > .headerLoginButton {
+/* body > .headerContentContainer > .headerSwag > .headerLoginButton {
     width: calc(100% / 6);
-}
+} */
 
 /* 1.2 Contenuto mettere titolo descrizione e due bottoni */
 /* caontainer per contenuto */
 .headerContentContainer > .titoloContainer {
     min-height: 485px;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,12 +100,9 @@ body > .headerContentContainer > .headerSwag > .headerLoginButton {
 }
 
 /* 5 */
-
-
 .layoutBlock.Plus {
     min-height: 800px;
 }
-
 .layoutBlock.Plus > .layoutContainer.cinque {
     flex-direction: column-reverse;
 }
@@ -107,7 +112,6 @@ body > .headerContentContainer > .headerSwag > .headerLoginButton {
 .layoutBlock.Avventura {
     min-height: 200px ;
 }
-
 .layoutBlock.Avventura > .layoutContainer.Avventura {
     min-height: 150px;
     flex-direction: column;
@@ -115,20 +119,30 @@ body > .headerContentContainer > .headerSwag > .headerLoginButton {
 
 
 /* 6. footer  */
-
 footer > .layoutBlock.Footer {
-        min-height: 400px;
+        min-height: 600px;
+        display: flex;
+        flex-direction: column;
+        
+        background-color: #2c2c2c;
     }
 
-
 footer > .layoutBlock.Footer > .layoutContainer.righeColonne {
-    min-height: 200px;
+    min-height: 450px;
+    justify-content: space-around;
+    
+    max-width: 1000px;
 }
 
+footer > .layoutBlock.Footer > .layoutContainer.righeColonne > div{
+    min-height: 450px;
+}
 
+.footerEnd {
+    display: flex;
+}
 
 /* debug */
-
 .debug > .headerContentContainer {
     border: 1px dashed black;
     background-color: #fcb2c5;
@@ -151,7 +165,6 @@ footer > .layoutBlock.Footer > .layoutContainer.righeColonne {
 
 .debug > .layoutBlock {
     border: 1px dashed black;
-    background-color: #fbc7ff;
 }
 
 .debug > .layoutBlock > .layoutContainer {
@@ -177,4 +190,29 @@ footer > .layoutBlock.Footer > .layoutContainer.righeColonne {
 .debug > footer > .layoutBlock.Footer > .layoutContainer.righeColonne {
     background-color: #202020;
     border: 1px dashed black;
+}
+
+.debug > footer > .layoutBlock.Footer > .layoutContainer.righeColonne > div{
+    border: 1px dashed black;
+    background-color: #2c2c2c;
+    min-height: 450px;
+}
+
+hr {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.footerEnd {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.miniSocials {
+    margin-top: 10px;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
 }
